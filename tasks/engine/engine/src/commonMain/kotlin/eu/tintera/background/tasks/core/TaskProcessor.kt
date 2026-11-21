@@ -123,7 +123,6 @@ internal class TaskProcessorImpl(
                 processTime = clock.now(),
                 allowedSourceStates = runningStates
             )
-            null
         } catch (e: CancellationException) {
             // when canceled, do nothing. Invalid Running states are handled by sweep mechanism
             // Let it crash

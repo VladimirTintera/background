@@ -7,12 +7,6 @@ plugins {
 }
 kotlin {
 
-    compilerOptions {
-        optIn.addAll(
-            "kotlinx.serialization.ExperimentalSerializationApi"
-        )
-    }
-
     iosArm64()
     iosSimulatorArm64()
 

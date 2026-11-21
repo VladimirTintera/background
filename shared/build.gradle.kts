@@ -12,9 +12,6 @@ plugins {
 kotlin {
 
     compilerOptions {
-        freeCompilerArgs.addAll(
-            "-Xcontext-parameters"
-        )
         optIn.addAll(
             "kotlin.concurrent.atomics.ExperimentalAtomicApi",
             "kotlinx.coroutines.ExperimentalCoroutinesApi",
