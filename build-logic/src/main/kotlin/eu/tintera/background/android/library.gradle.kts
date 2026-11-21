@@ -12,7 +12,7 @@ plugins {
 
 kotlin {
 
-    androidLibrary {
+    android {
 
         val pathSegments = project.path
             .split(":")
